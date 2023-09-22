@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Ajinkya_Todo_App_Project/static/css/main.395c93f9.css",
+    "main.js": "/Ajinkya_Todo_App_Project/static/js/main.b049a1d0.js",
+    "static/js/787.d117f18e.chunk.js": "/Ajinkya_Todo_App_Project/static/js/787.d117f18e.chunk.js",
+    "index.html": "/Ajinkya_Todo_App_Project/index.html",
+    "main.395c93f9.css.map": "/Ajinkya_Todo_App_Project/static/css/main.395c93f9.css.map",
+    "main.b049a1d0.js.map": "/Ajinkya_Todo_App_Project/static/js/main.b049a1d0.js.map",
+    "787.d117f18e.chunk.js.map": "/Ajinkya_Todo_App_Project/static/js/787.d117f18e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.395c93f9.css",
+    "static/js/main.b049a1d0.js"
+  ]
+}
