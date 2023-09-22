@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* ----------------------------------------------------------- */
+/* ----------------------------------------------------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+html,body{
+  background-color: #c3c3c3;
+}
+
+.wrapper{
+  max-width: 1200px;
+  height: auto;
+  margin: 30px auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  background-color: #a7aaaa;
+}
+
+h3{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-and-todo-box{
+  width: 500px;
+  margin: auto;
+  height: auto;
+}
+
+.form-and-todo-box .input-and-button{
+  height: 45px;
+  background-color: #fff;
+  overflow: hidden;
+  display: flex;
+}
+
+.form-and-todo-box .input-and-button input{
+  width: 92%;
+  height: 100%;
+  outline: none;
+  border: none;
+  text-indent: 2px;
+  font-size: 16px;
+  padding: 5px;
+  /* border: 2px solid #f92c0f; */
+}
+
+.form-and-todo-box .input-and-button .button{
+  width: 8%;
+  height: 100%;
+  background-color: #f92c0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:-1px;
+}
+
+.form-and-todo-box .input-and-button .button.edit{
+  width: auto;
+  padding: 0px 10px;
+}
+
+.form-and-todo-box .input-and-button .button button{
+  outline: none;
+  cursor: pointer;
+  border: 2px solid #f92c0f;
+  background-color: transparent;
+  color: #c1bdbd;
+}
+
+.todo{
+  margin: 15px 0px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}
+
+.todo input{
+  margin-right: 5px;
+}
+
+.todo span{
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.todo .edit-and-delete{
+  display: flex;
+  cursor: pointer;
+}
+
+.delete-all{
+  padding: 10px;
+  cursor: pointer;
+}
